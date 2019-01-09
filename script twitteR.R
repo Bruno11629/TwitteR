@@ -6,13 +6,14 @@ library("twitteR")
 library("wordcloud")
 library("tm")
 
-#necessary file for Windows
+# Windows
 download.file(url="http://curl.haxx.se/ca/cacert.pem", destfile="cacert.pem")
 
-consumer_key <- "t8v5RgdbEvUfC8M4EogncFskK"
-consumer_secret <- "CJr2FJIQ9wMqyqBluT0bGNvlVkuupk9ka1RBDBmQK8BO3zaOfp"
-access_token <- "2845838632-SUyWz2743RjrghLt1POSf50yGm6INNEc2FYkSHi"
-access_secret <- "ZDnAtL4bUGn1X9UdBIbU6lutdVWvoyO0S5lkJlDO8TaHJ"
+#obter através do twitter
+consumer_key <- ""
+consumer_secret <- ""
+access_token <- ""
+access_secret <- ""
 setup_twitter_oauth(consumer_key,
                     consumer_secret,
                     access_token,
